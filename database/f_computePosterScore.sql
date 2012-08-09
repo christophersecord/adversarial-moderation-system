@@ -1,7 +1,13 @@
-use acm;
+/** function to compute a poster's test score
+ * @author christophersecord
+ * @date 20120808
+ * @language SQL
+ * @platform mySQL
+ */
 
+/*
 drop function computePosterScore;
-
+*/
 
 delimiter //
 create function computePosterScore (inPosterID tinyint)

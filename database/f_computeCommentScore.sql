@@ -1,6 +1,13 @@
-use acm;
+/** function to compute the moderation score for an individual comment
+ * @author christophersecord
+ * @date 20120808
+ * @language SQL
+ * @platform mySQL
+ */
 
+/*
 drop function computeCommentScore;
+*/
 
 delimiter //
 create function computeCommentScore (inCommentID tinyint)

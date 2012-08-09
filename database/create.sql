@@ -4,7 +4,7 @@
  * @language SQL
  * @platform mySQL
  */
-use acm;
+
 /*
 drop table moderation;
 drop table comment;
